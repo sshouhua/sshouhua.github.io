@@ -1,7 +1,7 @@
 from pybtex.database.input import bibtex
 
 def get_personal_data():
-    name = ["Chien-Wen", "Sun"]
+    name = ["Chien-Wen", "Sun (Web Building)"]
     email = "sshouhua@gmail.com"
     github = "sshouhua"
     scholar = "pp0bGY4AAAAJ"
