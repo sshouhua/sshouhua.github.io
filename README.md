@@ -1,3 +1,8 @@
 # Personal Website
 
-This repository contains the python script to generate [my homepage](https://kashyap7x.github.io/). The website is based on the lightweight and easy-to-use template from Michael Niemeyer. [Check out his github repository for instructions on how to use it!](https://github.com/m-niemeyer/m-niemeyer.github.io)
+This repository contains the source code for my personal website: [https://sshouhua.github.io/](https://sshouhua.github.io/)
+
+## Credits
+
+* **Template Code:** based on [m-niemeyer/m-niemeyer.github.io](https://github.com/m-niemeyer/m-niemeyer.github.io) by Michael Niemeyer.
+* **Design & Layout:** inspired by [Kashyap Chitta](https://kashyap7x.github.io/).

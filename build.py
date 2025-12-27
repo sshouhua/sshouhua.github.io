@@ -1,109 +1,44 @@
 from pybtex.database.input import bibtex
 
 def get_personal_data():
-    name = ["Kashyap", "Chitta"]
-    email = "kchitta@nvidia.com"
-    scholar = "vX5i2CcAAAAJ"
-    substack = "kashyap7x"
-    linkedin = "kchitta"
-    github = "kashyap7x"
-    youtube = "UC_rpEkxE-pUAV8v0wjdtg5w"
+    name = ["Chien-Wen", "Sun"]
+    email = "sshouhua@gmail.com"
+    github = "sshouhua"
+    scholar = "pp0bGY4AAAAJ"
 
     bio_text = f"""
                 <p>
-                    I am a Postdoctoral Researcher at the <a href="https://research.nvidia.com/labs/avg/" target="_blank">NVIDIA Autonomous Vehicle Research Group</a> working from Tübingen, Germany. My research focuses on simulation-based training and evaluation of Physical AI systems. Representative papers are <span style="background-color:#ffffd0">highlighted</span> below.
+                    I am a Ph.D. student at the <a href="http://140.113.150.201/" target="_blank">Chaotic Systems and Signal Processing Laboratory (CSSP Lab.)</a> at National Yang Ming Chiao Tung University (NYCU), Taiwan. My research focuses on fuzzy systems, autonomous driving, and generative AI. Representative papers are <span style="background-color:#ffffd0">highlighted</span> below.
                 </p>
                 <p>
                     <span style="font-weight: bold;">Bio:</span>
-                    Kashyap did a bachelor's degree in electronics at the <a href="https://www.rvce.edu.in/" target="_blank">RV College of Engineering</a>, India. He then moved to the US in 2017 to obtain his Master's degree in computer vision from <a href="https://www.ri.cmu.edu/" target="_blank">Carnegie Mellon University</a>, where he was advised by <a href = "http://www.cs.cmu.edu/~hebert/" target="_blank">Prof. Martial Hebert</a>. During this time, he was also an intern at the <a href = "https://research.nvidia.com/labs/av-applied-research/" target="_blank">NVIDIA Autonomous Vehicles Applied Research Group</a> working with <a href = "https://alvarezlopezjosem.github.io/" target="_blank">Dr. Jose M. Alvarez</a>. From 2019, he was a PhD student in the <a href="https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/autonomous-vision/home/" target="_blank">Autonomous Vision Group</a> at the University of Tübingen, Germany, supervised by <a href="http://cvlibs.net/" target="_blank">Prof. Andreas Geiger</a>. He was selected for the <a href="https://iccv2023.thecvf.com/doctoral.consortium-353000-2-30.php" target="_blank">doctoral consortium</a> at ICCV 2023, as a 2023 <a href="https://sites.google.com/view/rsspioneers2023/participants" target="_blank">RSS pioneer</a>, and an outstanding reviewer for <a href="https://cvpr2023.thecvf.com/Conferences/2023/OutstandingReviewers" target="_blank">CVPR</a>, <a href="https://twitter.com/kashyap7x/status/1712169445349560517" target="_blank">ICCV</a>, <a href="https://eccv.ecva.net/Conferences/2024/Reviewers" target="_blank">ECCV</a>, and <a href="https://neurips.cc/Conferences/2023/ProgramCommittee#top-reivewers" target="_blank">NeurIPS</a>. He has also won multiple autonomous driving challenge awards <a href="https://opendrivelab.com/challenge2023/#nuplan_planning" target="_blank">[nuPlan 2023]</a> <a href="https://leaderboard.carla.org/challenge/#previous-carla-ad-challenges" target="_blank">[CARLA 2020, 2021, 2022, 2023, 2024]</a> <a href="https://waymo.com/open/challenges/" target="_blank">[Waymo 2025]</a> <a href="https://realadsim.github.io/2025/#challenge" target="_blank">[HUGSIM 2025]</a>.
+                    Chien-Wen received the M.S. degree in Electronic Engineering from <a href="https://fcuece.fcu.edu.tw/" target="_blank">Feng Chia University (FCU)</a>, Taichung, Taiwan, in 2023. He is currently a Ph.D. student at the Institute of Electrical and Control Engineering, <a href="https://cn.nycu.edu.tw/index.php?locale=en" target="_blank">National Yang Ming Chiao Tung University (NYCU)</a>, where he is advised by <a href="https://cn.nycu.edu.tw/teachers.php?pa=getItem&teacher_id=286&locale=tw" target="_blank">Prof. Wu</a>. He is co-advised by <a href="https://auto.fcu.edu.tw/en/teachers-detail/?id=T02182&unit_id=CE12" target="_blank">Prof. Lin</a> of the Department of Automatic Control Engineering, FCU. His current research interests include fuzzy systems, adaptive and robust control, cognitive architectures, autonomous driving, trajectory planning, and generative AI.
                 </p>
                 <p>
-                    <a href="https://kashyap7x.github.io/assets/pdf/kchitta_cv.pdf" target="_blank" style="margin-right: 15px"><i class="fa fa-address-card fa-lg"></i> CV</a>
+                    <a href="https://sshouhua.github.io/assets/pdf/cwsun_cv.pdf" target="_blank" style="margin-right: 15px"><i class="fa fa-address-card fa-lg"></i> CV</a>
                     <a href="mailto:{email}" style="margin-right: 15px"><i class="far fa-envelope-open fa-lg"></i> Mail</a>
-                    <a href="https://scholar.google.com/citations?user={scholar}&hl=en" target="_blank" style="margin-right: 15px"><i class="fa-solid fa-graduation-cap"></i> Scholar</a>
-                    <a href="https://{substack}.substack.com" target="_blank" style="margin-right: 15px"><i class="fa-solid fa-feather fa-lg"></i> Substack</a>
-                    <a href="https://www.linkedin.com/in/{linkedin}" target="_blank" style="margin-right: 15px"><i class="fab fa-linkedin fa-lg"></i> Linkedin</a>
                     <a href="https://github.com/{github}" target="_blank" style="margin-right: 15px"><i class="fab fa-github fa-lg"></i> GitHub</a>
-                    <a href="https://www.youtube.com/channel/{youtube}" target="_blank" style="margin-right: 15px"><i class="fab fa-youtube fa-lg"></i> YouTube</a>
+                    <a href="https://scholar.google.com/citations?user={scholar}&hl=en" target="_blank" style="margin-right: 15px"><i class="fa-solid fa-graduation-cap"></i> Scholar</a>
+
                 </p>
     """
     footer = """
             <div class="col-sm-12" style="">
                 <p>
-                    This website is based on the lightweight and easy-to-use template from Michael Niemeyer. <a href="https://github.com/m-niemeyer/m-niemeyer.github.io" target="_blank">Check out his github repository for instructions on how to use it!</a>
-                </p>
+                    &copy; Copyright 2025 Chien-Wen Sun. 
+                    Powered by <a href="https://github.com/m-niemeyer/m-niemeyer.github.io" target="_blank">m-niemeyer</a>. 
+                    Design inspired by <a href="https://kashyap7x.github.io/" target="_blank">Kashyap Chitta</a>.                </p>
             </div>
     """
     return name, bio_text, footer
 
 def get_author_dict():
     return {
-        'Long Chen': 'https://long.ooo/',
-        'Yuqian Shao': 'https://meteorcollector.github.io/',
-        'Xiaosong Jia': 'https://jiaxiaosong1002.github.io/',
-        'Xiangyu Yue': 'https://xyue.io/',
-        'Wei Cao': 'https://vveicao.github.io/',
-        'Xunjiang Gu': 'https://alfredgu001324.github.io/',
-        'Caojun Wang': 'https://scholar.google.com/citations?user=35xHlDUAAAAJ',
-        'Yakov Miron': 'https://www.linkedin.com/in/yakov-miron-0826121b/',
-        'Marco Aiello': 'http://aiellom.it/',
-        'Simon Gerstenecker': 'https://www.linkedin.com/in/simon-gerstenecker/',
-        'Xinshuo Weng': 'https://research.nvidia.com/person/xinshuo-weng',
-        'Zhiyu Huang': 'https://mczhi.github.io/',
-        'Zetong Yang': 'https://scholar.google.com/citations?user=oPiZSVYAAAAJ&hl=zh-CN',
-        'Igor Gilitschenski': 'https://www.gilitschenski.org/igor/',
-        'Boris Ivanovic': 'https://www.borisivanovic.com/',
-        'Marco Pavone': 'https://web.stanford.edu/~pavone/',
-        'Chonghao Sima': 'https://github.com/ChonghaoSima',
-        'Hanxue Zhang': 'https://github.com/jjxjiaxue',
-        'Chengen Xie': 'https://github.com/ChengenXie',
-        'Jens Beißwenger': 'https://www.linkedin.com/in/jens-beißwenger-a82430258',
-        'Jiazhi Yang': 'https://www.linkedin.com/in/jiazhi-yang-a07805208/',
-        'Shenyuan Gao': 'https://github.com/Little-Podi',
-        'Yihang Qiu': 'https://github.com/gihharwtw',
-        'Li Chen': 'https://www.linkedin.com/in/li-chen-30b256167/',
-        'Tianyu Li': 'https://www.linkedin.com/in/sephy-li/',
-        'Bo Dai': 'https://www.linkedin.com/in/bo-dai-33673672/',
-        'Penghao Wu': 'https://penghao-wu.github.io/',
-        'Jia Zeng': 'https://scholar.google.com/citations?user=kYrUfMoAAAAJ',
-        'Ping Luo': 'http://luoping.me/',
-        'Jun Zhang': 'https://eejzhang.people.ust.hk/',
-        'Yu Qiao': 'https://scholar.google.com/citations?user=gFtI-8QAAAAJ',
-        'Hongyang Li': 'https://lihongyang.info/',
-        'Tim Schreier': 'https://www.linkedin.com/in/tim-schreier-5b54bb198/',
-        'Daniel Dauner': 'https://danieldauner.github.io/',
-        'Marcel Hallgarten': 'https://mh0797.github.io/',
-        'Otniel-Bogdan Mercea': 'https://merceaotniel.github.io/',
-        'Sophia Koepke': 'https://www.eml-unitue.de/people/almut-sophia-koepke',
-        'Zeynep Akata': 'https://www.eml-unitue.de/people/zeynep-akata',
-        'Niklas Hanselmann': 'https://lasnik.github.io/',
-        'Apratim Bhattacharyya': 'https://apratimbhattacharyya18.github.io/',
-        'Bernhard Jaeger': 'https://kait0.github.io/',
-        'Zehao Yu': 'https://niujinshuchong.github.io/',
-        'Katrin Renz': 'https://www.katrinrenz.de/',
-        'Axel Sauer': 'https://axelsauer.com/',
-        'Jens Muller': 'https://scholar.google.com/citations?user=ayN8HoQAAAAJ&hl=en',
-        'Marissa Weis': 'https://scholar.google.com/citations?user=fxJ_ZOQAAAAJ&hl=en',
-        'Yash Sharma': 'https://www.yash-sharma.com/',
-        'Wieland Brendel': 'https://robustml.is.mpg.de/person/wbrendel',
-        'Matthias Bethge': 'http://bethgelab.org/people/matthias/',
-        'Alexander Ecker': 'https://eckerlab.org/',
-        'Elmar Haussmann': 'https://scholar.google.com/citations?user=HzaEH_MAAAAJ&hl=en',
-        'Michele Fenzi': 'https://scholar.google.com/citations?hl=en&user=x3xLe8wAAAAJ',
-        'Jan Ivanecky': 'https://www.linkedin.com/in/jan-ivanecky-226b31116',
-        'Hanson Xu': 'https://ieeexplore.ieee.org/author/37088650397',
-        'Donna Roy': 'https://scholar.google.com/citations?user=Pvt-cf0AAAAJ&hl=en',
-        'Akshita Mittel': 'https://scholar.google.com/citations?user=OQOmmooAAAAJ&hl=en',
-        'Nicolas Koumchatzky': 'https://www.linkedin.com/in/nicolaskoumchatzky',
-        'Clement Farabet': 'http://www.clement.farabet.net/',
-        'Aditya Prakash': 'https://ap229997.github.io/',
-        'Aseem Behl': 'https://aseembehl.github.io/',
-        'Eshed Ohn-Bar': 'https://eshed1.github.io/',
-        'Andreas Geiger': 'https://www.cvlibs.net/',
-        'Martial Hebert': 'http://www.cs.cmu.edu/~hebert/',
-        'Jose Alvarez': 'https://alvarezlopezjosem.github.io/',
-        'Adam Lesnikowski': 'https://scholar.google.com/citations?user=jPbTs2QAAAAJ&hl=en',
+        'Chih-Wei Tseng': 'https://scholar.google.com/citations?user=ybjfgNEAAAAJ&hl=zh-TW',
+        'Bing-Fei Wu': 'https://scholar.google.com/citations?user=7-23WmIAAAAJ&hl=en',
+        'Yu-Chen Lin': 'https://scholar.google.com/citations?user=tI26CY8AAAAJ&hl=en',
         }
+
 
 def generate_person_html(persons, connection=", ", make_bold=True, make_bold_name='Kashyap Chitta', 
                          add_links=True, equal_contribution=None):
@@ -242,7 +177,7 @@ def get_index_html():
                 {bio_text}
             </div>
             <div class="col-md-4" style="">
-                <img src="assets/img/profile.jpg" class="img-thumbnail" alt="Profile picture">
+                <img src="assets/img/profile.png" class="img-thumbnail" alt="Profile picture">
             </div>
         </div>
         <div class="row" style="margin-top: 1em;">
@@ -284,7 +219,7 @@ def get_index_html():
 
 def write_index_html(filename='index.html'):
     s = get_index_html()
-    with open(filename, 'w') as f:
+    with open(filename, 'w', encoding='utf-8') as f:
         f.write(s)
     print(f'Written index content to {filename}.')
 
