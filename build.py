@@ -16,7 +16,7 @@ def get_personal_data():
                 <p>
                     <span style="font-weight: bold;">Bio:</span>
                     Chien-Wen received the M.S. degree in Electronic Engineering from <a href="https://fcuece.fcu.edu.tw/" target="_blank">Feng Chia University (FCU)</a>, Taichung, Taiwan, in 2023. 
-                    He is currently a Ph.D. student at the Institute of Electrical and Control Engineering, <a href="https://cn.nycu.edu.tw/index.php?locale=en" target="_blank">National Yang Ming Chiao Tung University (NYCU)</a>, where he is advised by <a href="https://cn.nycu.edu.tw/teachers.php?pa=getItem&teacher_id=286&locale=tw" target="_blank">Prof. Wu</a>. 
+                    He is currently a Ph.D. candidate at the Institute of Electrical and Control Engineering, <a href="https://cn.nycu.edu.tw/index.php?locale=en" target="_blank">National Yang Ming Chiao Tung University (NYCU)</a>, where he is advised by <a href="https://cn.nycu.edu.tw/teachers.php?pa=getItem&teacher_id=286&locale=tw" target="_blank">Prof. Wu</a>. 
                     He is co-advised by <a href="https://auto.fcu.edu.tw/en/teachers-detail/?id=T02182&unit_id=CE12" target="_blank">Prof. Lin</a> of the Department of Automatic Control Engineering, FCU.
                     Notably, he received the <span style="font-weight: bold;">Innovation Award</span> at the Autonomous Grand Challenge 2025 (ICCV Phase), standing out among 19+ participating teams from both industry (e.g., Nvidia, Bosch, Xiaomi) and academia.
                     His current research interests include fuzzy systems, reinforcement learning, cognitive architectures, trajectory planning, and generative AI.
